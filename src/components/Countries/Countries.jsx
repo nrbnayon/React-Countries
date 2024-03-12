@@ -27,7 +27,8 @@ const Countries = () => {
     setVisitedFlag(newVisitedFlag);
   };
 
-  //remove
+  //remove item from an array in a state
+  // use filter to select all the element except the one you want to remove
 
   return (
     <div>
